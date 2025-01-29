@@ -1,4 +1,4 @@
-# **My Solution: Call by Value, Call by Reference, Call by Pointer**
+# <center> **My Solution: Call by Value, Call by Reference, Call by Pointer** </center>
 
 ### 📅 **Date:** 21-12-2024  
 ### ⏳ **Deadline:** 21-12-2024 23:55:00 PM
@@ -47,4 +47,4 @@ This problem tests the knowledge on pointers, reference variables, escpecially u
 I will provide a Line - by - Line explaination to understand the solution better.
 - In the main function, the variables initialised are:
   - `int a = 1` , in which the integer value 1 is assigned to the variable `a`. This is similar to the initialization of variable `b` having the value 2.
-  - `int c = new int(3)` , the variable `c` stores a memory address which contains the integer value 3 in it. This is a fairly new concept and a new keyword as well *(no pun intended smiley)* . The `new` keyword is used in the concept of dynamic programming. In simpler terms, it allocates temporary space of a given datatype to a variable to be used during the runtime. When used, it returns an address.
+  - `int c = new int(3)` , the variable `c` stores a memory address which contains the integer value 3 in it. This is a fairly new concept and a new keyword as well (*no pun intended* 😉) . The `new` keyword is used in the concept of dynamic programming. In simpler terms, it allocates temporary space of a given datatype to a variable to be used during the runtime. When used, it returns an address.
