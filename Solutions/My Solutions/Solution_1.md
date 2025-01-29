@@ -16,8 +16,8 @@ Here is the Solution Code
 using namespace std;
 
 void S( int *x, int &y, int * &z , int w)
-
-{ int *t;
+{
+    int *t;
 
     t = &y ;
 
@@ -30,12 +30,11 @@ void S( int *x, int &y, int * &z , int w)
     w = *t + w;
 
     cout << w << " " << *x << " " << y << " " << *z << endl;
-
 }
 
 main()
-
-{  int a = 1 , b = 2 , *c = new int(3), *d=new int(4) ;
+{
+    int a = 1 , b = 2 , *c = new int(3), *d = new int(4) ;
     S( &a , b , c , *d ) ;
 
     cout << a << " " << b << " " << *c << " " << *d << endl;
