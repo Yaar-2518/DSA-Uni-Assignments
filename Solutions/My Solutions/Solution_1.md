@@ -4,9 +4,10 @@
 ### ⏳ **Deadline:** 21-12-2024 23:55:00 PM
 ---
 
-## Solution
+## 💡 Solution
 
-⚠️ Make sure you have given it a try before viewing the solution.
+⚠️ **Before you peek!** Make sure you’ve given the problem an honest attempt.  
+Understanding pointers, references, and values is crucial in C++ programming, and this solution will help you master these concepts.  
 
 
 Here is the Solution Code
@@ -19,15 +20,15 @@ void S( int *x, int &y, int * &z , int w)
 { 
     int *t;
 
-    t = &y ;
+    t = &y ;        // Assign the address of y to t
 
-    *x = y + *z ;
+    *x = y + *z ;   // Dereference x and assign (y + value pointed to by z)
 
-    y =  *z + *t ;
+    y =  *z + *t ;  // Modify y using dereferenced values of z and t
 
-    *z =  *x + y ;
+    *z =  *x + y ;  // Modify value pointed to by z
 
-    w = *t + w;
+    w = *t + w;     // Modify w using dereferenced t
 
     cout << w << " " << *x << " " << y << " " << *z << endl;
 }
@@ -40,11 +41,42 @@ main()
     cout << a << " " << b << " " << *c << " " << *d << endl;
 }
 ```
+
+## Explanation
+1. **What Each Variable Represents**:
+   - `a` and `b`: Passed by value and reference respectively, affecting their behavior in the function.
+   - `c` and `d`: Pointers, allowing direct manipulation of dynamically allocated memory.
+
+2. **How the Function Works**:
+   - **Line 1**: `t = &y;`  
+     - `t` stores the address of `y`, enabling operations on `y` through the pointer.  
+   - **Line 2**: `*x = y + *z;`  
+     - Dereferences `x` to modify its value using `y` and the value pointed to by `z`.  
+   - **Line 3**: `y = *z + *t;`  
+     - Updates `y` by adding values pointed to by `z` and `t`.  
+   - **Line 4**: `*z = *x + y;`  
+     - Modifies the value pointed to by `z` using `*x` and `y`.
+
+
+
+
 ---
 
-## Explaination
-This problem tests the knowledge on pointers, reference variables, escpecially use of the `*` and `&` symbols.  
-I will provide a Line - by - Line explaination to understand the solution better.
-- In the main function, the variables initialised are:
-  - `int a = 1` , in which the integer value 1 is assigned to the variable `a`. This is similar to the initialization of variable `b` having the value 2.
-  - `int c = new int(3)` , the variable `c` stores a memory address which contains the integer value 3 in it. This is a fairly new concept and a new keyword as well (*no pun intended* 😉) . The `new` keyword is used in the concept of dynamic programming. In simpler terms, it allocates temporary space of a given datatype to a variable to be used during the runtime. When used, it returns an address.
+
+### 🔍 **Key Concepts**
+In this solution, we demonstrate:  
+1. **Call by Value**: Passing values directly (e.g., `int w`).  
+2. **Call by Reference**: Passing variables by reference (e.g., `int &y`).  
+3. **Call by Pointer**: Passing pointers to manipulate memory directly (e.g., `int *x`, `int *&z`).  
+
+---
+
+### ✅ **Output**
+
+The program will produce the following output:  
+```cpp
+9 5 5 10
+5 5 10 4
+```
+
+---
