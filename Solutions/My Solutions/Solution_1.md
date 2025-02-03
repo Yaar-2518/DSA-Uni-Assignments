@@ -6,7 +6,7 @@
 
 ## 💡 Solution
 
-⚠️ **Before you peek!** Make sure you’ve given the problem an honest attempt.  
+⚠️ **Before you peek!** Make sure you’ve given the problem an honest attempt.  <br> <br>
 Understanding pointers, references, and values is crucial in C++ programming, and this solution will help you master these concepts.  
 
 
