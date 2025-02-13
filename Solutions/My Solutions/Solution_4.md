@@ -1,7 +1,3 @@
-Here’s the solution markdown in the same format as before:  
-
----
-
 # <center> **Number in Words: Solution** </center>  
 
 ### 📅 **Date:** 21-12-2024  
@@ -107,14 +103,3 @@ NINE THOUSAND FOUR HUNDRED SEVENTY TWO
 ```cpp
 THREE THOUSAND SIX
 ```  
-
----
-
-### 🔥 **Key Takeaways**  
-✔ **String Manipulation**: Using arrays to store word equivalents.  
-✔ **Modular Approach**: Breaking down the number into thousands, hundreds, tens, and ones.  
-✔ **Handling Edge Cases**: Special cases like numbers between 10-19 and zero are considered.  
-
----
-
-Let me know if you want any modifications! 🚀😃
