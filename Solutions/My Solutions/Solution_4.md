@@ -19,7 +19,6 @@ int main()
     int num;
     cin >> num;
 
-    // Arrays storing words for numbers
     string numbers[10] = {"", "ONE", "TWO", "THREE", "FOUR", "FIVE", "SIX", "SEVEN", "EIGHT", "NINE"};
     string tens_excpn[] = {"TEN", "ELEVEN", "TWELVE", "THIRTEEN", "FOURTEEN", "FIFTEEN", "SIXTEEN", "SEVENTEEN", "EIGHTEEN", "NINETEEN"};
     string tens_[] = {"TWENTY", "THIRTY", "FORTY", "FIFTY", "SIXTY", "SEVENTY", "EIGHTY", "NINETY"};
@@ -58,6 +57,8 @@ int main()
             cout << numbers[ones]; 
         }
     }
+
+    return 0;
 }
 ```  
 
