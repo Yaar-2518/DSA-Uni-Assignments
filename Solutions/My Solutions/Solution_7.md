@@ -39,12 +39,12 @@ int main()
     int century = year / 100;
     int yearInTens = year % 100;
     
-    // The 'sum' variable aggregates the components of the day calculation:
-    // 1 (for January 1st) + 0 (a constant used in the formula) + yearInTens + (yearInTens/4)
+    /* The 'sum' variable aggregates the components of the day calculation:
+    1 (for January 1st) + 0 (a constant used in the formula) + yearInTens + (yearInTens/4)*/
     int sum = 1 + 0 + yearInTens + (yearInTens / 4);
 
-    // Adjust the sum based on the century using a mental math shortcut:
-    // The century code cycles in a pattern every 400 years.
+    /* Adjust the sum based on the century using a mental math shortcut:
+    The century code cycles in a pattern every 400 years.*/
     if ((century - 14) % 4 == 0) sum += 2;
     else if ((century - 15) % 4 == 0) sum += 0;
     else if ((century - 16) % 4 == 0) sum += 6;
@@ -131,3 +131,9 @@ int main()
   Dates are printed in sequence. When a week completes (`ans % 7 == 0`), a new line is started. Single-digit dates are padded with extra spaces for alignment.
 
 ---
+
+## 🔗 **Additional References**
+
+- **YouTube Video:**  
+  [![How to Calculate Calendar Dates](https://i.ytimg.com/vi/87hOITnSl1A/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLD9FezmWj4lHcuTnMOc91r6mU3Auw)](https://www.youtube.com/watch?v=87hOITnSl1A&pp=ygUhaG93IHRvIGNhbGN1bGF0ZSBkYXkgaW4gcmVhc29uaW5n)
+
