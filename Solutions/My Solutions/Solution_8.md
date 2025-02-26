@@ -1,11 +1,11 @@
-<center> Largest Continuous Sequence: Solution </center>
+# <center> Largest Continuous Sequence: Solution </center>
 
-📅 **Date:** 22-12-2024  
-⏳ **Deadline:** 23-12-2024 11:55:00 AM  
+### 📅 **Date:** 22-12-2024  
+### ⏳ **Deadline:** 23-12-2024 11:55:00 AM  
 
 ---  
 
-❓ **Problem Statement**  
+## ❓ **Problem Statement**  
 
 You are given a **binary array A** (consisting of only `0`s and `1`s) where the input ends with `-1` (which is not part of the array).  
 
@@ -15,11 +15,11 @@ If the array contains **only `1`s**, return `-1`.
 
 ---  
 
-🔹 **Input Format**  
+### 🔹 **Input Format**  
 - A sequence of space-separated binary numbers (`0`s and `1`s) ending with `-1`.  
 - `-1` marks the end of the input and is **not** considered part of the array.
 
-🔹 **Output Format**  
+### 🔹 **Output Format**  
 - A single integer representing the **index (0-based)** of the `0` that should be replaced.  
 - If all elements are `1`, output `-1`.
 
@@ -105,7 +105,7 @@ int main()
 
 ---  
 
-🔍 **Explanation of the Code**  
+## 🔍 **Explanation of the Code**  
 
 1. **Input Reading:**  
    - The program reads integers until `-1` is encountered, storing them in an array.  
@@ -126,7 +126,7 @@ int main()
 
 ---  
 
-🎯 **Test Cases**  
+## 🎯 **Example Execution**  
 
 ✅ **Example 1**  
 **Input:**  
