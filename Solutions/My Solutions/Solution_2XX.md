@@ -86,3 +86,11 @@ int main()
 ---
 
 That's it! 🚀 Happy Coding! 🎯
+
+---
+### ✨ IYKYK
+>Life is a Mid,   
+Amid of Love   
+
+>Life is a Holy Exam,   
+Fare it Fairly Maximum
